@@ -1,7 +1,7 @@
 {
     "env": {
         "browser": true,
-        //  "es2021": true
+        // "es2021": true
         "es6": true
     },
     "extends": "airbnb-base",
@@ -14,6 +14,9 @@
             "error",
             "LabeledStatement",
             "WithStatement"
+        ],
+        "no-console": [
+            "off"
         ]
     }
 }
